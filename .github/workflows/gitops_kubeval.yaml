@@ -8,7 +8,7 @@ jobs:
     - name: manifest
       uses: instrumenta/kubeval-action@master
       with:
-       files: [*.yaml]
+       files: jenkins.yaml
   slack:
     name: Slack Notification
     runs-on: ubuntu-latest
