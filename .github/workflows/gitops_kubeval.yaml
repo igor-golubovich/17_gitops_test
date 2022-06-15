@@ -19,7 +19,7 @@ jobs:
       env:
         SLACK_CHANNEL: igoz_notification_channel
         SLACK_COLOR: ${{ job.status }}
-        SLACK_ICON: 'icon_emoji: :ghost:'
+        SLACK_ICON: icon_emoji: :ghost:
         SLACK_MESSAGE: 'Kubeval test'
         SLACK_TITLE: 'job is done!!'
         SLACK_USERNAME: Kubeval
